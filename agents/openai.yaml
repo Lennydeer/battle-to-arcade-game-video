@@ -1,0 +1,4 @@
+interface:
+  display_name: "Battle to Arcade Game Video"
+  short_description: "Канонические битвы в стиле анимированного 2D-файтинга"
+  default_prompt: "Используй $battle-to-arcade-game-video: разбери выбранную битву по шагам и собери видео в утверждённом стиле 2D-файтинга."

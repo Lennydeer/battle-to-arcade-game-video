@@ -1,32 +1,32 @@
-# JJK — согласованные решения, не универсальные правила других произведений
+# JJK: agreed choices, not general rules for other works
 
-Полная завершённая манга, прошлое Годжо и JJK 0; спойлеры до финала разрешены. Официальные английские названия, русский рабочий разбор; полной японской сверки не обещать. Первый большой подробный разбор — Gojo vs Sukuna, допустимо несколько частей.
+The scope covers the completed manga, Gojo's past, and JJK 0. Spoilers through the ending are allowed. Use official English names. The original project used Russian working notes; this skill package is now in English. Do not promise a full check against the Japanese text. The first major detailed breakdown is Gojo vs Sukuna; it may have several parts.
 
-Отбор: прежде всего отдельные противостояния; затем важные групповые бои/Domain Expansion. Всегда указывать участников, не «бой с Дагоном» или «этапы с Махито».
+Selection: focus first on individual fights, then on important group battles and Domain Expansion. Always name the participants. Avoid vague titles such as “the Dagon fight” or “Mahito phases.”
 
-- Hidden Inventory: Gojo–Toji первая встреча, Geto–Toji и реванш Gojo–Toji — три отдельных боя.
-- JJK 0: добавить Yuta/Maki в школе и Yuta/Inumaki на рынке; Yuta/Rika–Geto разбирать от фактических действий без предыстории и послебоевой встречи Гэто с Годжо.
-- Центр заключения: Yuji → Sukuna против носителя пальца — одна история со сменой контроля. Megumi–Sukuna отдельно; назвать всех фактически призванных сикигами, незавершённый призыв не показывать как завершённый.
-- Hanami vs Yuji/Todo — основное название; появление Gojo сохранить как значимое вмешательство.
-- Megumi vs другой носитель пальца: по шагам показать незавершённую территорию, отвлечение и решающую роль Divine Dog Totality; не ограничиваться «превосходит».
-- Kokichi Muta явно обозначается как Mechamaru. Подробно показывать ход его боя с Mahito и механизм Simple Domain.
-- Shibuya: Gojo на станции исключён из выбранного списка. Dagon: Nanami, Naobito, Maki; затем Megumi и Toji — роли и очередность. Toji–Megumi отдельно. Yuji–Choso, Sukuna–Mahoraga пошагово. Yuji vs Mahito — одна карточка с причинно важными ролями Nobara/Todo; включить финальное столкновение с Geto/Kenjaku и назвать действующих участников по источнику.
-- Отдельная хронология «до Culling Game» заканчивается уходом Kenjaku и запуском игры после Сибуи. Более поздние бои туда не добавлять.
-- Maki–Ogi, Maki–бойцы клана, Maki–Naoya-человек — три разных боя. Не потерять бой с Naoya.
-- Sendai: Yuta с противниками — единый сложный бой; финальную фазу Yuta–Ryu не превращать в отдельную карточку. В Sakurajima сохранить Daido/Miyo и объяснить их роли при появлении.
-- «Хикари против Сукуны» исправлено пользователем на Kashimo vs Sukuna. Не выдумывать отдельную дуэль Hakari–Sukuna.
-- Финал с Sukuna: отдельные выбранные противостояния Higuruma/Yuji, Yuta/Rika/Yuji, Maki, Yuta в теле Gojo, Yuji/Todo. Не заменять их расплывчатым «последовательные группы»; остальных отбирать по значимости.
+- Hidden Inventory: Gojo–Toji's first meeting, Geto–Toji, and Gojo–Toji's rematch are three separate fights in the chronology.
+- JJK 0: include Yuta/Maki at the school and Yuta/Inumaki at the market. Start Yuta/Rika–Geto with actual combat, without backstory or Geto's later meeting with Gojo.
+- Detention center: Yuji → Sukuna vs Finger Bearer is one story with a change of control. Keep Megumi–Sukuna separate. Name all shikigami actually summoned. Do not show an unfinished summon as complete.
+- Use Hanami vs Yuji/Todo as the main title. Keep Gojo's arrival as an important intervention.
+- Megumi vs the other Finger Bearer: show the unfinished domain, distraction, and key role of Divine Dog Totality step by step. Do not reduce the sequence to “overpowers the opponent.”
+- Clearly identify Kokichi Muta as Mechamaru. Show the steps of his fight with Mahito and how Simple Domain works.
+- Shibuya: Gojo at the station is excluded from the selected list. Against Dagon, show Nanami, Naobito, and Maki, then Megumi and Toji, with clear roles and order. Keep Toji–Megumi separate. Explain Yuji–Choso and Sukuna–Mahoraga step by step. Yuji vs Mahito is one entry that keeps Nobara's and Todo's important contributions. Include the final clash with Geto/Kenjaku and identify the active participants from the source.
+- The separate “before Culling Game” chronology ends with Kenjaku leaving and starting the game after Shibuya. Do not add later battles to it.
+- Maki–Ogi, Maki–clan fighters, and Maki–human Naoya are three different fights. Do not leave out the Naoya fight.
+- Sendai: Yuta's battle with his opponents stays one complex fight. Do not make the final Yuta–Ryu phase a separate entry. In Sakurajima, keep Daido and Miyo and explain their roles when they appear.
+- The user corrected “Hikari vs Sukuna” to Kashimo vs Sukuna. Do not invent a separate Hakari–Sukuna duel.
+- Sukuna's final battle: keep the selected confrontations separate — Higuruma/Yuji, Yuta/Rika/Yuji, Maki, Yuta in Gojo's body, and Yuji/Todo. Do not replace them with a vague “successive groups.” Select other encounters by importance.
 
-## Утверждённый визуальный пример
+## Approved visual example
 
-Yuji–Choso Hyperframes v02: 87s = 3s вступления +84s действия, станция → туалет, конец — Yuji жив без сознания. Эталон внешности — первые кадры; одежда Yuji целая весь бой. Flowing Red Scale/Stack видимы и сохраняются при смене поз; дверь принадлежит кабинке до разрушения. Пользовательская музыка и синтетические эффекты; трек не переносить автоматически в новый бой.
+Yuji–Choso Hyperframes v02: 87 seconds = a 3-second intro + 84 seconds of action. Station → restroom. At the end, Yuji is alive but unconscious. The first frames are the appearance reference. Yuji's clothes stay intact throughout. Flowing Red Scale/Stack are visible and remain active across pose changes. The door belongs to a stall before it breaks. Use the chosen music and synthetic effects; do not automatically reuse the track for a new battle.
 
-Это пример визуального одобрения, не первоисточник лора: полная постраничная сверка VIZ не завершалась. Не копировать его хореографические допущения как доказанный канон.
+This is a visually approved example, not a primary lore source. A full page-by-page VIZ check was not completed. Do not copy its staging assumptions as proven facts from the original story.
 
-## Поздние утверждённые правки конкретных роликов
+## Later approved changes for specific videos
 
-Эти решения уточняют постановку своих роликов и не меняют автоматически канон или другие бои.
+These choices update their own videos. They do not automatically change the original story or other battles.
 
-- Gojo–Toji: пользователь объединил первую встречу, лечение Reverse Cursed Technique и реванш в один ролик; Geto исключён. После первого поражения Gojo лежит на спине, после лечения левитирует вертикально без переворота. Показать поражение и смерть Toji; выбранная финальная поза — сидя. Музыка: Searching for Riko до лечения; The Honored One с лечения; SFX.
-- Yuta/Rika–Geto: Rika на стороне Yuta, сохраняет согласованное положение за ним; без зеркалирования сцены. Трек We Are Stop The Attack используется только в этом ролике по выбору пользователя.
-- Yuji → Sukuna–Finger Bearer: анатомическая левая кисть отсутствует от потери до лечения, не меняется на правую между рисунками. Смена контроля сама по себе не лечит травму. Разрыв манжеты сохраняется после восстановления кисти. Malevolent Shrine возникает в текущем боковом кадре, без отдельного общего плана и уменьшения бойцов. Рассечения вертикальные. В финале Sukuna стоя подходит к парящему пальцу, берёт его на уровне груди, остаётся стоять; не приседает. Объём тела в ходьбе и захвате соответствует боевым позам. Для v05 выбран Power Of Special Grade Curse с 00:31 исходного файла + SFX; не наследовать этот трек новым боям.
+- Gojo–Toji: the user combined the first meeting, healing with Reverse Cursed Technique, and the rematch into one video. Geto is excluded. After the first defeat, Gojo lies on his back. After healing, he floats upright without turning upside down. Show Toji's defeat and death; the chosen final pose is seated. Music: Searching for Riko before healing, The Honored One from healing onward, plus SFX.
+- Yuta/Rika–Geto: Rika is on Yuta's side and keeps her agreed position behind him. Do not mirror the scene. The user chose We Are Stop The Attack for this video only.
+- Yuji → Sukuna vs Finger Bearer: the body's left hand stays missing from its loss until healing. Do not switch the missing hand between drawings. A change of control does not heal the injury by itself. The torn cuff remains after the hand recovers. Malevolent Shrine appears in the current side view, without a separate wide shot or smaller fighters. Cuts are vertical. At the end, Sukuna walks toward the floating finger, takes it at chest height, and stays standing; he does not crouch. His body size during walking and grabbing matches his fighting poses. For v05, the user chose Power Of Special Grade Curse from 00:31 in the source file, plus SFX. Do not carry this track into other battles automatically.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Battle to Arcade Game Video"
-  short_description: "Канонические битвы в стиле анимированного 2D-файтинга"
-  default_prompt: "Используй $battle-to-arcade-game-video: разбери выбранную битву по шагам и собери видео в утверждённом стиле 2D-файтинга."
+  short_description: "Turn fictional battles into clear 2D fighting videos"
+  default_prompt: "Use $battle-to-arcade-game-video to explain the chosen battle step by step and create a video in the approved 2D fighting style."

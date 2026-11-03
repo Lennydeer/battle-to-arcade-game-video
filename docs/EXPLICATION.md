@@ -1,92 +1,92 @@
-# Экспликация: Battle to Arcade Game Video
+# Creative treatment: Battle to Arcade Game Video
 
-## Замысел
+## Concept
 
-Показать, как прошла битва, языком двухмерного аркадного файтинга. Каждое действие должно быть понятно по изображению: кто атаковал, какую технику применил, как ответил противник и что изменилось после контакта. Основная драматургия возникает из реального хода боя, а игровой интерфейс помогает следить за его последствиями.
+Show how a battle happened through the visual language of a 2D arcade fighting game. Every action should be clear from the image: who attacked, which technique they used, how the opponent responded, and what changed after contact. The real course of the battle creates the drama. The game-style display helps the viewer follow its results.
 
-Это линейное анимированное видео. Зритель наблюдает заранее поставленную последовательность, а не управляет персонажами. Эстетика аркадного файтинга задаёт способ подачи, но не заменяет логику первоисточника.
+This is a linear animated video. The viewer watches a planned sequence and does not control the characters. The arcade fighting style shapes the presentation, while the original work provides the logic of the fight.
 
-## Драматургия и достоверность
+## Story and accuracy
 
-Начало — фактическое действие боя после короткого отсчёта. Предыстория не занимает отдельный длинный блок. Сценарий строится по цепочке: действие → ответ → контакт, блок или промах → результат → новое состояние. Формулировка «персонаж сильнее» должна быть раскрыта через конкретное действие.
+Start with an actual battle action after a short countdown. Do not spend a long opening section on backstory. Build the script as a chain: action → response → hit, block, or miss → result → new state. Show a specific action instead of simply saying that one character is stronger.
 
-Техники, призванные существа и оружие называются явно. Последствия сохраняются в следующих событиях. Исход, смерть, потеря сознания и временная неспособность действовать не подменяют друг друга. Нулевое HP само по себе не устанавливает смерть.
+Name techniques, summoned creatures, and weapons clearly. Carry their results into later events. Defeat, death, unconsciousness, and a temporary inability to act are different states. Zero HP does not prove death by itself.
 
-Ссылки, главы, страницы и степень проверки остаются в рабочем сценарии. В нём отдельно отмечаются факт первоисточника, дополнение экранизации, интерпретация и постановочное сокращение. Одобрение видео не означает завершённую проверку канона.
+Keep source links, chapters, pages, and review status in the working script. Mark facts from the original work, additions in an adaptation, interpretation, and shortened action made for the video separately. Approval of the video does not mean that every story detail has been checked.
 
-## Кадр и пространство
+## Frame and space
 
-Базовый кадр — 16:9, 1920×1080, 30 кадров в секунду. Бойцы расположены на боковой арене, видят друг друга и опираются на одну понятную поверхность. Фон, персонажи, тени, эффекты и интерфейс собираются отдельными слоями.
+The standard frame is 16:9, 1920×1080, at 30 frames per second. Fighters face each other in a side-view arena and stand on a clear surface. Build the background, characters, shadows, effects, and interface as separate layers.
 
-Положение героев меняется через показанное движение. Зеркалирование не используется как быстрый способ получить другую позу: оно меняет анатомическую сторону травмы, одежду и расположение помощников. Для другого направления нужна соответствующая поза.
+Characters change position through visible movement. Do not mirror an image as a quick way to get another pose: this can switch an injury to the wrong side, change clothing, or move a helper. Use a suitable pose for the new direction.
 
-Расширение территории по умолчанию меняет окружение внутри текущего кадра. Масштаб героев и линия пола сохраняются. Отдельный общий план применяется только при согласованном решении. Исток атаки, направление её движения и след на цели должны совпадать.
+By default, Domain Expansion changes the surroundings within the current frame. Keep character scale and the floor line stable. Use a separate wide shot only when agreed. The start of an attack, its path, and its mark on the target must match.
 
-Реквизит связан с ареной: дверь относится к конкретному проёму, обломки имеют источник, предмет подбирается в видимом месте. После разрушения окружение не возвращается к прежнему состоянию без причины.
+Props belong to the arena. A door has a specific opening, debris has a source, and an object is picked up in a visible place. Damage to the surroundings does not disappear without a reason.
 
-## Персонажи и непрерывность
+## Characters and continuity
 
-Первый одобренный рисунок каждого героя становится модельным эталоном. Лицо, волосы, палитра, крой, обувь, голова, плечи, торс и длины конечностей сохраняются во всех позах. Контроль распространяется на обоих бойцов, в том числе на ходьбу, реакции, падения, захват предмета и финальное удержание.
+The first approved drawing of each fighter becomes the model reference. Keep the same face, hair, colors, clothing cut, shoes, head, shoulders, torso, and limb lengths in every pose. Check both fighters, including walking, reactions, falls, object grabs, and the final held pose.
 
-Размер героя определяется анатомическими ориентирами, а не внешней рамкой изображения. Поднятая нога увеличивает рамку позы, но не должна уменьшать голову или торс. Обрезка прозрачных полей не меняет физический масштаб и опору.
+Measure character size using body landmarks, not the outer rectangle of the image. A raised leg makes that rectangle larger, but must not make the head or torso smaller. Removing transparent margins must not change physical scale or contact with the ground.
 
-Травмы фиксируются относительно тела: левая кисть остаётся левой независимо от положения на экране. Отдельно хранятся состояние тела, одежда, усиления и оружие. Лечение может восстановить тело, но не зашивает автоматически рукав. Смена контроля над телом сама по себе не является лечением.
+Record injuries relative to the body: the left hand remains the left hand whatever the screen position. Store the body state, clothing, power-ups, and weapons separately. Healing can restore the body without repairing a sleeve. A change of control over a body does not count as healing by itself.
 
-Конечная поза следует фактическому исходу и явному выбору пользователя. После падения показываются контакт с полом и устойчивое положение. Лежащий или сидящий поверженный герой не возвращается в стойку без события восстановления. Победитель не приседает ради подбора предмета, если утверждён захват стоя.
+The final pose follows the actual outcome and the user's explicit choice. After a fall, show contact with the floor and a stable position. A defeated character who is lying or sitting does not return to a stance without a recovery event. A winner does not crouch to pick up an object when the agreed action is a standing grab.
 
-## Анимация
+## Animation
 
-Каждый обмен имеет подготовку, разгон, контакт, реакцию и возврат. Плавность создаётся связью фаз, траекторией и ритмом; большое количество рисунков не обязательно. Допустима рисованная анимация на ограниченном числе поз с выразительными переходами.
+Each exchange has preparation, acceleration, contact, reaction, and return. Smoothness comes from connected phases, movement paths, and rhythm. A large number of drawings is not required. A limited set of poses with strong drawn transitions is acceptable.
 
-Smears — короткие вытянутые рисунки, дуги и следы на самых быстрых участках движения. Они соединяют читаемые позы, передают скорость и агрессию. Контакт и реакция остаются различимыми. Длинное растворение между двумя силуэтами не заменяет промежуточную фазу.
+Smears are brief stretched drawings, arcs, and trails during the fastest part of a movement. They connect clear poses and show speed and force. The contact and reaction must remain readable. A long fade between two silhouettes does not replace a movement phase.
 
-Опорная стопа закреплена на полу; перемещение сопровождается работой ног и рук. Прыжок, отбрасывание и левитация имеют явную причину. Левитация не означает обязательный переворот, а вращение целой плоской стойки не заменяет анимацию тела.
+Keep a supporting foot planted on the floor. Travel uses leg and arm movement. A jump, knockback, or levitation needs a clear reason. Levitation does not require a flip. Rotating a whole flat standing image does not replace body animation.
 
-## Интерфейс
+## Interface
 
-| Элемент | Правило |
+| Element | Rule |
 |---|---|
-| Начало | Неподвижные бойцы; 3 → 2 → 1, по секунде; затем отсчёт исчезает |
-| Верхние панели | Имена, числовые HP и ресурс; для JJK — CURSED ENERGY |
-| Под ресурсом | Травма или полученный урон соответствующего героя; ровно три секунды |
-| Нижняя плашка | Только английское название применяемой техники; при обычных движениях пусто |
-| Постоянные состояния | Исчезновение уведомления не отменяет травму, урон или потерю ресурса |
-| Числа | Условная модель описана в документации, без служебного пояснения на экране |
+| Opening | Still fighters; 3 → 2 → 1, one second each; then remove the countdown |
+| Top panels | Names, numerical HP, and a resource; for JJK, use CURSED ENERGY |
+| Below the resource | That fighter's injury or received damage notice, for exactly three seconds |
+| Bottom panel | Only the English name of the technique in use; empty during ordinary movements |
+| Lasting states | Removing a notice does not undo the injury, damage, or resource loss |
+| Numbers | Explain the invented model in the documentation, without an on-screen production note |
 
-Весь экранный текст — на английском. Названия локаций, номера обменов, ссылки на источники и объясняющие финальные карточки не добавляются без запроса. Изменения HP и энергии происходят по событиям; таймер канонической способности не смешивается с длительностью монтажа.
+All screen text is in English. Do not add location names, exchange numbers, source links, or final explanation cards unless requested. HP and energy change because of events. Keep the story duration of an ability separate from the length of the edit.
 
-## Темп и удержание внимания
+## Pace and viewer attention
 
-Для сравнимого по сложности боя ориентир — 60–90 секунд. Простой обмен укладывается в короткий тест примерно 7–13 секунд; сложный бой при необходимости делится на части. Длительность определяется событиями, а не длиной музыкального трека.
+For a battle of similar complexity, aim for 60–90 seconds. A simple exchange fits a short test of about 7–13 seconds. Split a complex battle into parts when needed. Events determine the length, not the music track.
 
-Зрительские hooks сохраняют хронологию: читаемая угроза после отсчёта; подготовка техники и возможный ответ; реальный контрприём; смена преимущества; новый видимый эффект способности; понятный исход. Не добавляются выдуманные атаки, флешфорварды и текстовый кликбейт.
+Viewer hooks keep the story order: a clear threat after the countdown; technique preparation and a possible response; a real counter; a change of advantage; a visible new ability effect; and a clear outcome. Do not add invented attacks, flash-forwards, or text clickbait.
 
-## Звук
+## Sound
 
-Звуковой режим и музыка выбираются для конкретного боя. У трека сохраняются точный файл, начало участка исходной записи и точка входа в видео. Указание «с 00:31» означает воспроизведение исходного трека с этой позиции, а не паузу на 31 секунду.
+Choose the sound mode and music for each battle. Record the exact music file, the start of the selected part in the source, and its entry point in the video. “From 00:31” means playback from that position in the source track, not a 31-second pause.
 
-Музыка подгоняется под монтаж обрезкой и согласованными переходами; петля и изменение скорости не применяются молча. SFX привязываются к кадрам контакта, шагам, трансформации, лечению и техникам. Хранятся исходник, отдельные дорожки и список звуковых событий.
+Fit music to the edit with trimming and agreed transitions. Do not silently add loops or change speed. Place SFX (sound effects) at contact, step, transformation, healing, and technique frames. Keep the source audio, separate tracks, and a list of sound events.
 
-Проверяются перегрузка и звук после кодирования. Технический анализ уровня не заменяет прослушивание. Если меняется только звук, контрольные кадры должны совпасть с утверждённой визуальной версией.
+Check for clipping and check the audio after encoding. Technical level measurements do not replace listening. If only the sound changes, review frames must match the approved visual version.
 
-## Производство и контроль
+## Production and review
 
-| Этап | Результат | Основные hooks |
+| Stage | Output | Main hooks |
 |---|---|---|
-| Исследование | Источники, границы, последовательность и состояния | story_ready |
-| Визуальная подготовка | Папки изображений, эталоны, арена и листы поз | assets_ready, scale_locked |
-| Анимационный тест | Читаемое действие и реакция обоих бойцов | motion_ready |
-| Полный бой | Непрерывность поз, травм, одежды и окружения | scene_exit, anatomy_locked, defeat_settled |
-| Звук | Выбранный музыкальный участок и синхронные эффекты | audio_ready |
-| Экспорт и просмотр | MP4, исходники, контрольные кадры и отчёт | before_export, after_export |
-| Правки | Обновлённые правила и новая версия результата | feedback_received |
+| Research | Sources, limits, event sequence, and states | story_ready |
+| Visual preparation | Image folders, references, arena, and pose sheets | assets_ready, scale_locked |
+| Animation test | Clear action and reaction from both fighters | motion_ready |
+| Full fight | Consistent poses, injuries, clothing, and surroundings | scene_exit, anatomy_locked, defeat_settled |
+| Audio | Chosen music section and synchronized effects | audio_ready |
+| Export and review | MP4, source files, review frames, and a report | before_export, after_export |
+| Changes | Updated rules and a new output version | feedback_received |
 
-Hooks — обязанности агента в нужный момент работы; они не устанавливают фоновые обработчики. Скрипт проверки таймлайна проверяет данные, но не распознаёт изображения и не оценивает художественное качество.
+Hooks are tasks for the agent at the right stage. They do not install background handlers. The timeline checker checks data; it does not recognize images or judge creative quality.
 
-Финальный рендер выполняется в Remotion. React/JSX задаёт композицию и время, CSS/SVG — интерфейс и эффекты, прозрачные изображения и последовательности поз — персонажей. Подготовка рисунков и звука может выполняться другими инструментами. Готовый MP4 не заменяет редактируемый проект.
+Remotion renders the final video. React/JSX defines the composition and timing. CSS/SVG creates the interface and effects. Transparent images and pose sequences represent the characters. Other tools can prepare drawings and audio. The finished MP4 does not replace the editable project.
 
-## Критерии готовности
+## Completion criteria
 
-Зритель понимает порядок атак, защиту и исход по действиям. Модели персонажей не меняются между позами. Ранения и одежда продолжаются через все переходы. Эффекты видимы, контакт и изменение интерфейса синхронны. Финальные состояния согласованы с историей. Видео открывается и воспроизводится целиком; выполненные технические, визуальные и звуковые проверки записаны отдельно.
+The viewer understands the attack order, defense, and outcome through the action. Character models stay consistent between poses. Injuries and clothes continue across all transitions. Techniques have visible effects. Contact and interface changes happen together. Final states match the story. The video opens and plays from start to finish. Record completed technical, visual, and sound checks separately.
 
-Пакет выпуска включает MP4, сценарий, редактируемый проект, материалы, версии зависимостей, параметры рендера, действующие правила и лог обратной связи. Старые версии сохраняются. Для JJK частные решения приведены в [отдельном приложении](../references/jjk.md) и не становятся автоматически правилами других произведений.
+The release package contains the MP4, script, editable project, assets, dependency versions, render settings, current rules, and feedback log. Keep earlier versions. Specific JJK choices are listed in a [separate guide](../references/jjk.md); they do not automatically become rules for other works.

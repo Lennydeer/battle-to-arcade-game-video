@@ -1,60 +1,60 @@
 ---
 name: battle-to-arcade-game-video
-description: "Исследуй и создавай видео-разборы вымышленных битв как анимированный 2D-файтинг: последовательность техник, согласованные персонажи, HP/ресурсы, выразительные smears и звук. Используй для нового боя или правок такого видео; обычный вопрос о лоре не требует видеопроизводства."
+description: "Research fictional battles and create animated 2D fighting videos with clear techniques, consistent characters, HP and resources, strong motion smears, and sound. Use for a new battle video or changes to an existing one. A simple lore question does not require video production."
 ---
 
 # Battle to Arcade Game Video
 
-Создавай понятную последовательность боя в стиле 2D-файтинга: зритель видит действие, ответ и последствие. Утверждённое направление — Yuji–Choso Hyperframes v02; переносить правила подачи, а не чужие техники, цифры или костюмы.
+Create a clear battle sequence in the style of a 2D fighting game. The viewer should see the action, the response, and the result. The approved style reference is Yuji–Choso Hyperframes v02. Use its presentation rules, not its specific techniques, numbers, or costumes.
 
-## Начало работы
+## Getting started
 
-- Прочитай текущие сценарий, эталоны персонажей, design-guidelines, feedback и последнюю одобренную версию. Последняя правка пользователя отменяет старое противоречащее правило; своди действующие правила, не оставляй взаимоисключающие указания.
-- Продолжай с запрошенного этапа. Правка текста не означает рендер; одобренный тест не надо повторять; одобрение ролика не подтверждает каноническую точность.
-- **Финальный рендер — через Remotion, не Hyperframes.** Это выбор инструмента вывода видео: подготовка графики, поз, smears и сценария сохраняет утверждённый подход. Старые Hyperframes-версии служат визуальным эталоном, а не обязательным движком. Для этого стиля нет обязательной зависимости от lore-to-video-remotion.
-- Через AskQuestions / доступный интерактивный выбор уточняй только нерешённые творческие вопросы: бой/границы, существенную новую концепцию, звук. Дай контекст, рекомендуемый вариант и последствия. Не пересогласовывай уже выбранное или обычные технические решения.
-- Материалы и проекты храни вне папки навыка. Не изменяй глобальные настройки или другие навыки ради нового проекта.
+- Read the current script, character references, design guidelines, feedback, and latest approved version. The user's latest correction replaces an older rule that conflicts with it. Keep one clear set of active rules.
+- Continue from the requested stage. A text change does not mean a new render. Do not repeat an approved test. Approval of a video does not confirm that every detail matches the original story.
+- **Use Remotion for the final render, not Hyperframes.** Keep the approved approach to artwork, poses, smears, and the script. Earlier Hyperframes versions are visual references, not a required engine. This style does not require the lore-to-video-remotion skill.
+- Use AskQuestions or an available interactive choice tool only for creative decisions that are still open: the battle and its limits, a major new concept, or sound. Explain the context, recommend an option, and explain its effect. Do not ask again about agreed choices or routine technical decisions.
+- Keep project files and media outside the skill folder. Do not change global settings or other skills for a new project.
 
-## Сценарий и достоверность
+## Script and accuracy
 
-До постановки заполни [шаблон боя](references/battle-template.md). Для JJK прочитай [согласованный охват](references/jjk.md).
+Complete the [battle template](references/battle-template.md) before planning the action. For JJK, read the [agreed scope](references/jjk.md).
 
-- Начинай с фактического действия боя; без длинной предыстории, флешбэков и ненужного эпилога. Явно назови участников и границы каждого противостояния. Связанный бой со сменой состава можно вести одной историей; отдельные встречи и реванши различай в хронологии. Объединяй их в один ролик по явному запросу пользователя, сохраняя причинный переход и исключая ненужные параллельные бои.
-- Каждый шаг: **кто → конкретная техника/движение → ответ → контакт/блок/промах → результат → новое состояние**. Называй призванных существ, оружие и ограничения. «Превосходит противника» не является сценарием.
-- Источники, точные главы/страницы при наличии, объяснения и непроверенные детали остаются в Markdown. Разделяй факт первоисточника, дополнение адаптации, интерпретацию и постановку; не выдавай вторичное описание за постраничную сверку.
-- Не добавляй результативные атаки, смерти, техники или преимущества ради зрелищности. Промежуточное движение и сокращение времени помечай как постановочную адаптацию.
+- Start with an actual action from the fight. Avoid long backstory, flashbacks, and an unnecessary ending after the fight. Name the participants and the start and end of each battle. A connected fight can stay one story when the participants change. Keep separate meetings and rematches clear in the chronology. Combine them in one video only when the user asks; keep the cause-and-effect link and leave out unrelated parallel fights.
+- Write each step as **who → exact technique or movement → response → hit, block, or miss → result → new state**. Name summoned creatures, weapons, and limits. “Overpowers the opponent” is not a script.
+- Keep sources, exact chapters and pages when available, explanations, and unverified details in Markdown. Separate facts from the original work, additions in an adaptation, interpretation, and choices made for the video. Do not present a secondary summary as a page-by-page check.
+- Do not invent successful attacks, deaths, techniques, or advantages to make the fight more exciting. Mark added linking movements and shorter timing as choices made for the video.
 
-## Постоянный визуальный контракт
+## Visual rules
 
-- 1920×1080, 16:9, 30 fps; боковая арена, бойцы, эффекты и HUD отдельными слоями. Быстрое непрерывное действие. Для сравнимого боя ориентир 60–90 секунд; сложный бой разделить, а не терять ключевые события. Короткий тест обычно 7–13 секунд; не растягивать простой обмен.
-- В начале неподвижная сцена и **3 → 2 → 1**, по секунде на число. Затем счётчик исчезает. Нет номера обмена или таймера длины ролика.
-- Весь экранный текст **на английском**. Сверху имя, числовые HP и ресурс; для JJK — CURSED ENERGY. Под ресурсом бойца — уведомления о его травме и полученном уроне, каждое **ровно 3 секунды**. Исчезает текст, а не травма или потеря HP.
-- Нижняя плашка — **только название применяемой техники**. Обычные удары, бег и сближение не подписывать. Не показывать названия локаций, источники, служебные ID, пояснение условности HP и финальные объясняющие карточки без запроса.
-- Числа — явно описанная в документации игровая модель, не каноническое измерение силы. Ресурсы меняются по событиям; 0 HP не означает смерть автоматически. Дополнительный показатель только для нужной механики; канонический таймер способности отделяй от экранного времени.
+- Use 1920×1080, 16:9, 30 fps. Keep the side-view arena, fighters, effects, and HUD (the game-style information display) on separate layers. Use fast, continuous action. Aim for 60–90 seconds for a battle of similar complexity. Split a complex fight into parts instead of losing key events. A short test is usually 7–13 seconds; do not stretch a simple exchange.
+- Begin with a still scene and **3 → 2 → 1**, one second per number. Then remove the countdown. Do not show an exchange number or a timer for the video length.
+- All on-screen text is **in English**. Show the name, numerical HP, and resource at the top; for JJK, use CURSED ENERGY. Below each fighter's resource bar, show their injury and received damage notices for **exactly 3 seconds** each. The text disappears; the injury and HP loss remain.
+- The bottom panel shows **only the name of the technique in use**. Do not label ordinary punches, running, or moving closer. Do not add location names, sources, internal IDs, an explanation of the HP model, or final explanation cards unless requested.
+- The numbers are a game model explained in the documentation, not an official measure of power. Resources change because of events. Zero HP does not automatically mean death. Add another meter only when a mechanic needs it. Keep an ability's story timer separate from screen time.
 
-## Персонажи, арена и анимация
+## Characters, arena, and animation
 
-- **Первые одобренные кадры — эталон каждого героя.** Во всех позах сохраняй лицо, причёску, пропорции, длины конечностей, размер головы, палитру, контур, крой, обувь и тени. Согласованность нужна обоим бойцам, включая реакции и падения.
-- Проверяй объём тела по размеру головы, ширине плеч/торса и длинам конечностей относительно первого одобренного рисунка. Один рост по рамке не гарантирует одинаковых пропорций. Ходьба, захват предмета и финальное удержание входят в проверку наравне с атаками.
-- Не нормализуй масштаб по полной рамке позы: поднятая нога меняет рамку, не размер тела. Сверяй анатомические ориентиры; хранить физический масштаб и точки опоры отдельно от обрезки картинки.
-- Лицо/взгляд и корпус боевой стойки направлены к сопернику; проверять все позы и смену сторон. По умолчанию не зеркаль спрайты или сцену: используй позы нужного направления. Сохраняй порядок участников и помощников, анатомические стороны травм и реквизита; смена сторон требует показанного перемещения. Падение или осмысленный разворот не приравнивай к неверной стойке.
-- Опорные стопы закреплены на поверхности, тени под ними. Никакого зависания, покачивания целой картинки и скольжения неподвижной стойки. Для перемещения — цикл ног/рук; отрыв только при прыжке, броске или отбрасывании.
-- Для обоих героев строй **подготовку → разгон → контакт → реакцию → возврат**. Меньше качественных рисунков допустимо: плавность определяется связью фаз, траекторией и ритмом, не числом кадров. Не маскируй плохой переход длинным растворением силуэтов.
-- Выразительные **smears** на скоростных переходах — короткие вытяжки/дуги/следы между читаемыми позами. Настраивай длительность по движению; не держи их весь удар, не скрывай контакт/цель и не меняй постоянное лицо/костюм. Эффекты и короткая фиксация контакта подчёркивают, а не заменяют анимацию тела.
-- Одежда либо целая весь бой, либо все показанные разрывы сохраняются далее. Травмы, усиления, отметины, оружие, вода и обломки продолжают существовать после смены рисунка/камеры. Восстановление — отдельное обоснованное событие.
-- **Финал следует исходу и согласованной позе.** Покажи потерю опоры, контакт с поверхностью и устойчивую конечную позу, если произошло падение. Лежащий герой не возвращается в стойку без восстановления. Явно выбранный сидячий финал допустим; победитель не приседает и не падает без причины. Поражение, потеря сознания и смерть различаются; смерть подтверждается источником, не нулём HP. Локальные решения — в [JJK](references/jjk.md).
-- **Поза, опора, действие и HUD должны описывать одно состояние.** Для обоих бойцов переносить в следующий кадр положение тела, контакт с полом, способность действовать, ранения и костюм. У лежащего героя опора и тень под телом; не подвешивай горизонтальный рисунок на прежней точке стоп. Проверяй не только кадр попадания, но и все последующие смены поз и финальное удержание.
-- Левитацию и переворот различай: отрыв от пола сам по себе не требует вращения. Для согласованной сцены Годжо — вертикальная левитация лицом к Тодзи. Не вращай целую плоскую стойку ради динамики; для нужного по действию переворота подготовь читаемые промежуточные позы. После изменения положения героя совмести исток техники с рукой/оружием и проверь траекторию до цели.
-- Для территории по умолчанию сохраняй боковую камеру, масштаб бойцов и линию пола: меняй окружение и эффекты вокруг них. Отдельный общий план — только согласованное решение. Исток, направление и результат техники должны совпадать; вертикальное рассечение не заменять горизонтальным.
-- Техника должна быть **видна**, а не только названа. Реквизит принадлежит геометрии арены: дверь связана с кабинкой до разрушения, после остаются проём/полотно/обломки.
+- **The first approved frames define each character's model.** Keep the same face, hair, proportions, limb lengths, head size, colors, outlines, clothing cut, shoes, and shadows in every pose. This applies to both fighters, including reactions and falls.
+- Check body size against the first approved drawing: head size, shoulder and torso width, and limb lengths. Matching the image height alone does not prove that proportions match. Check walking, picking up an object, and holding the final pose as carefully as attacks.
+- Do not set scale from the full image rectangle. A raised leg changes that rectangle, not the body size. Compare body landmarks. Store physical scale and contact points separately from image cropping.
+- In a fighting stance, the face, gaze, and torso point toward the opponent. Check every pose and change of side. Do not mirror sprites or the scene by default; use poses drawn for the correct direction. Keep fighters, helpers, injuries, and props on the correct sides. Show movement when someone changes sides. A fall or an intentional turn is not a wrong fighting stance.
+- Plant supporting feet on the floor, with shadows below them. Avoid accidental floating, rocking the whole image, or sliding a fixed stance across the ground. Use a leg and arm cycle for travel. Leaving the ground must follow an action such as a jump, throw, knockback, or an established levitation ability.
+- For both fighters, build **preparation → acceleration → contact → reaction → return**. A smaller set of good drawings is acceptable. Smooth movement comes from connected phases, paths, and rhythm, not just frame count. Do not hide a poor transition with a long fade between silhouettes.
+- Use strong **smears** for fast transitions: brief stretched drawings, arcs, or motion trails between clear poses. Set their length to fit the movement. Do not keep them through the whole strike, hide the target or contact, or change the character's normal face and costume. Effects and a brief pause on impact support body animation; they do not replace it.
+- Clothing either stays intact throughout the fight, or every shown tear remains afterward. Injuries, power-ups, marks, weapons, water, and debris remain after a pose or camera change. Recovery needs a separate, justified event.
+- **The ending follows the result and the agreed final pose.** If a character falls, show the loss of support, contact with the surface, and a stable final pose. A lying character does not return to a stance without recovery. An explicitly chosen seated ending is valid. A winner does not crouch or fall without a reason. Defeat, unconsciousness, and death are different states; confirm death from the source, not from zero HP. See [JJK](references/jjk.md) for local choices.
+- **Pose, support, action, and HUD must show the same state.** Carry both fighters' body position, floor contact, ability to act, injuries, and clothing into the next frame. For a lying character, place support and shadow under the body. Do not hang a horizontal drawing from the old foot anchor. Check later pose changes and the final hold, not only the impact frame.
+- Separate levitation from a flip. Leaving the floor does not require rotation. In the agreed Gojo scene, he floats upright facing Toji. Do not rotate a flat standing image just to add movement. If the action needs a flip, draw clear poses between its start and end. After moving a character, align the technique's starting point with the hand or weapon and check its path to the target.
+- For a domain, keep the side-view camera, fighter scale, and floor line by default. Change the surroundings and effects around them. Use a separate wide shot only when agreed. The technique's starting point, direction, and result must match. Do not replace a vertical cut with a horizontal one.
+- A technique must be **visible**, not just named. Props belong to the arena: a door is attached to a stall before it breaks; afterward, the opening, door panel, or debris remains.
 
-## Производственный цикл и hooks
+## Production process and hooks
 
-Hooks — обязательные точки работы агента, описанные в [hooks](references/hooks.md): **производственные проверки и зрительские приёмы**. Это не автоматически установленные системные обработчики.
+[Hooks](references/hooks.md) are required agent checkpoints and methods for keeping viewers interested. They are not automatically installed system handlers.
 
-1. Источники → пошаговый сценарий → состояния до/после. Выполни `story_ready`.
-2. Мудборд как **изображения и папки**; отдельно герои, арены, техники, пример кадра. Отделяй источник от сгенерированной постановочной графики. Зафиксируй эталоны и выполни `assets_ready`.
-3. Для нового решения собери короткий тест, включающий действие и реакцию обоих бойцов. Выполни `motion_ready`; применяй результат проверки ко всему набору поз, не только замеченному кадру.
-4. После одобрения/запроса полной сборки перенеси подход на весь бой. Музыку подгоняй под хронометраж; звук контакта, эффект и HP синхронизируй. Уточни новый трек или немой режим, если ещё не выбран; не подменяй согласованный звук.
-5. Применяй [правила сборки](references/production.md), `before_export` и `after_export`. Исправь выявленные дефекты, сохрани новую версию и покажи проигрываемый MP4.
-6. На отзыв выполни `feedback_received`: сначала обнови действующие правила, затем разрешённую часть работы. Сохраняй предыдущие ролики и исходники. Не называй позовую анимацию полноценным ригом, а технический анализ аудио — прослушиванием.
+1. Sources → step-by-step script → states before and after each event. Complete `story_ready`.
+2. Build the moodboard as **images and folders**. Separate characters, arenas, techniques, and a sample frame. Keep source material separate from generated artwork. Set the references and complete `assets_ready`.
+3. For a new approach, build a short test with an action and a reaction from both fighters. Complete `motion_ready`. Apply the findings to the full pose set, not only the reported frame.
+4. After approval or a request for the full video, apply the approach to the whole fight. Fit music to the video length. Keep impact sound, effects, and HP changes in sync. Ask about the track or silent mode only if no choice exists. Do not replace agreed sound.
+5. Follow the [production rules](references/production.md), `before_export`, and `after_export`. Fix found problems, save a new version, and show a playable MP4.
+6. On feedback, complete `feedback_received`: update the active rules first, then do the authorized work. Keep earlier videos and source files. Do not call pose-based animation a full rig (a joint-based animation system), or call technical audio analysis a listening review.

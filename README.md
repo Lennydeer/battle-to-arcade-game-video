@@ -1,87 +1,88 @@
 # Battle to Arcade Game Video
 
-Навык для Codex: превращает последовательность вымышленной битвы в анимированное видео в стиле 2D-аркадного файтинга. Зритель видит технику, ответ противника и последствия через движение героев, эффекты и игровой интерфейс.
+A Codex skill that turns a fictional battle into an animated video in the style of a 2D arcade fighting game. The viewer sees each technique, the opponent's response, and the result through character movement, effects, and a game-style display.
 
-**Результат — видео, а не интерактивная игра.** Итоговый рендер выполняется в Remotion. Навык содержит инструкции, шаблон сценария и проверку таймлайна; готового универсального движка и набора персонажей в пакете нет.
+**The output is a video, not a playable game.** Remotion renders the final video. This package contains instructions, a script template, and a timeline checker. It does not include a ready-made animation engine or character assets.
 
-[Экспликация](docs/EXPLICATION.md) · [Инструкция агента](SKILL.md) · [Шаблон боя](references/battle-template.md) · [Hooks](references/hooks.md) · [Лог изменений](CHANGELOG.md)
+[Creative treatment](docs/EXPLICATION.md) · [Agent instructions](SKILL.md) · [Battle template](references/battle-template.md) · [Hooks](references/hooks.md) · [Change log](CHANGELOG.md)
 
-## Что получается на выходе
+## What you get
 
-- Пошаговый сценарий со ссылками на источники, состояниями героев и границами адаптации.
-- Утверждённые модели персонажей, листы поз и отдельные слои арены, эффектов и интерфейса.
-- Редактируемый проект Remotion, проигрываемый MP4 и исходные материалы.
-- Отчёт о проверке: непрерывность состояния, масштаб, анатомия, движение, текст, звук и экспорт.
+- A step-by-step script with sources, character states, and clear notes on adaptation.
+- Approved character models, pose sheets, and separate layers for the arena, effects, and interface.
+- An editable Remotion project, a playable MP4, and source materials.
+- A review report covering state continuity, scale, anatomy, motion, text, sound, and export.
 
-Основной формат: 1920×1080, 30 fps, боковая арена, короткий отсчёт 3–2–1. Экранный текст — на английском; рабочий сценарий может быть на русском. Внизу — названия техник, сверху — HP и ресурс, под ресурсом — уведомления о травмах и уроне на три секунды. HP и энергия — условная модель, описанная в документации.
+The standard format is 1920×1080 at 30 fps, with a side-view arena and a short 3–2–1 countdown. Screen text is in English. Working notes can use the project's chosen language. Technique names appear at the bottom. HP and resources appear at the top. Injury and damage notices appear below the resource bar for three seconds. HP and energy are an invented model explained in the documentation.
 
-## Установка
+## Installation
 
-Скопируйте эту папку как `battle-to-arcade-game-video` в каталог навыков Codex. При стандартной установке:
+Copy this folder into the Codex skills directory under the name `battle-to-arcade-game-video`. For a standard installation:
 
 ```sh
 git clone https://github.com/Lennydeer/battle-to-arcade-game-video.git "$HOME/.codex/skills/battle-to-arcade-game-video"
 ```
 
-Если папка уже существует, сначала сохраните свою версию; команда выше предназначена для новой установки. Для установки с иным `CODEX_HOME` используйте его каталог `skills`. После установки начните новый чат или обновите доступные навыки в своей среде.
+If that folder already exists, back up your version first. The command above is for a new installation. If you use a custom `CODEX_HOME`, use its `skills` directory. After installation, start a new chat or refresh the available skills in your environment.
 
-## Использование
-
-```text
-Используй $battle-to-arcade-game-video. Подготовь бой [участники]
-по [источник, главы или эпизод]. Границы: [начало и конец].
-Сначала сценарий и короткий тест; звук пока не нужен.
-```
-
-Для правки готового проекта:
+## Usage
 
 ```text
-Используй $battle-to-arcade-game-video. В проекте [путь] исправь
-размер персонажа в ходьбе и финальном захвате по первой одобренной
-стойке. Проверь все позы обоих бойцов и собери новую версию.
+Use $battle-to-arcade-game-video. Prepare the battle [participants]
+from [source, chapter, or episode]. Start and end: [limits].
+Begin with the script and a short test. No sound for now.
 ```
 
-Уже выбранные решения сохраняются. Если запрос касается только сценария, навык не запускает рендер. Новые существенные творческие решения уточняются интерактивно, с контекстом и последствиями выбора.
+To update an existing project:
 
-## Процесс
+```text
+Use $battle-to-arcade-game-video. In the project at [path], fix the
+character's size during walking and the final grab. Use the first
+approved stance as the reference. Check all poses for both fighters
+and render a new version.
+```
 
-1. Определить участников, границы и источник; расписать действия, ответы и изменения состояния.
-2. Собрать визуальные ориентиры как изображения и папки; утвердить героев и арену.
-3. Проверить короткий обмен: подготовка → разгон → контакт → реакция → возврат.
-4. Перенести подход на весь бой, сохраняя размеры, анатомию, одежду и последствия атак.
-5. Добавить выбранную музыку и SFX, затем выполнить рендер и проверку результата.
+Keep choices that have already been agreed. A request to edit only the script does not start a render. Ask about major new creative choices through interactive options, with context and the effect of each option.
 
-Каждый этап имеет [производственные hooks](references/hooks.md). Это точки работы агента, а не автоматически установленные системные обработчики. Зрительские hooks помогают удерживать внимание реальными угрозами, контрприёмами и изменением преимущества без перестановки событий.
+## Process
 
-## Состав
+1. Define the participants, start and end, and source. Write the actions, responses, and state changes.
+2. Collect visual references as images and folders. Approve the characters and arena.
+3. Test a short exchange: preparation → acceleration → contact → reaction → return.
+4. Apply the approach to the full fight, keeping body size, anatomy, clothes, and attack results consistent.
+5. Add the chosen music and SFX, then render and review the output.
 
-| Файл | Назначение |
+Each stage has [production hooks](references/hooks.md): checks the agent performs at the right moment. They are not automatically installed system handlers. Viewer hooks keep attention through real threats, counters, and changes of advantage without changing the order of events.
+
+## Files
+
+| File | Purpose |
 |---|---|
-| `SKILL.md` | Правила и порядок работы агента |
-| `agents/openai.yaml` | Название и пример вызова навыка |
-| `references/battle-template.md` | Шаблон сценария и состояния до/после действия |
-| `references/hooks.md` | Производственные и зрительские hooks; контракт JSON |
-| `references/production.md` | Материалы, Remotion, звук, проверка и выдача |
-| `references/jjk.md` | Локальные решения серии JJK; не универсальный канон |
-| `scripts/check_timeline.py` | Проверка непрерывности снимков состояния и времени уведомлений |
-| `docs/EXPLICATION.md` | Замысел, визуальный язык и организация производства |
+| `SKILL.md` | Agent rules and workflow |
+| `agents/openai.yaml` | Display name and example skill prompt |
+| `references/battle-template.md` | Script template and states before and after actions |
+| `references/hooks.md` | Production and viewer hooks; JSON format |
+| `references/production.md` | Assets, Remotion, audio, review, and delivery |
+| `references/jjk.md` | Local JJK series choices, not a universal source of story facts |
+| `scripts/check_timeline.py` | Checks state snapshots and notice timing |
+| `docs/EXPLICATION.md` | Creative treatment: concept, visual style, and production plan |
 
-## Стек и зависимости
+## Tools and dependencies
 
-Remotion, React/JSX, CSS/SVG; локальные PNG/RGBA и последовательности поз; доступный инструмент генерации/редактирования изображений. Музыка и SFX — отдельные дорожки. FFmpeg/FFprobe используются для подготовки и проверки медиа. Для рендера нужны совместимые Node.js, зависимости Remotion и браузер; их версии фиксируются в конкретном проекте, в пакете навыка они не поставляются. Доступность генерации изображений зависит от среды пользователя.
+Use Remotion, React/JSX, CSS/SVG, local PNG/RGBA files, pose sequences, and an available image generation or editing tool. Music and SFX are separate tracks. FFmpeg and FFprobe help prepare and check media. Rendering needs compatible Node.js and Remotion dependencies, plus a browser. Record their versions in each project; this skill package does not include them. Image generation depends on the tools available in the user's environment.
 
-`check_timeline.py` использует стандартную библиотеку Python 3:
+`check_timeline.py` uses only the Python 3 standard library:
 
 ```sh
 python3 scripts/check_timeline.py /path/to/project/timeline-review.json
 ```
 
-Формат описан в [hooks](references/hooks.md). Проверка не распознаёт изображения, не устанавливает каноничность и не оценивает качество анимации или звука.
+See [hooks](references/hooks.md) for the data format. The checker does not recognize images, verify story facts, or judge animation and sound quality.
 
-## Материалы и границы
+## Materials and scope
 
-В репозитории — текстовые инструкции и проверочный скрипт. Кадры произведений, музыка, изображения персонажей и готовые ролики сюда не включены. Права и условия использования производственных материалов проверяются для каждого проекта отдельно. Канонические факты, дополнения экранизации и постановочные решения обозначаются раздельно.
+This repository contains text instructions and a checking script. It does not include frames from original works, music, character images, or finished videos. Check the rights and terms for production materials in each project. Keep original story facts, adaptation additions, and staging choices clearly separate.
 
-## English summary
+## Summary
 
-A Codex skill for turning fictional battles into animated 2D arcade-fighting videos with Remotion. It defines source-grounded choreography, stable character models, persistent injuries and costumes, readable smears, English technique captions, HP/resource HUD, synchronized audio, and production review hooks. It is an instruction package, not a playable game or a bundled animation engine.
+Create clear 2D battle videos with source-based choreography, consistent characters, lasting injuries and costume damage, expressive motion smears, English technique captions, HP and resource bars, and synchronized audio. The package guides production and review; it is not a game or a complete animation engine.

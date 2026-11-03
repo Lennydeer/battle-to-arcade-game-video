@@ -1,37 +1,41 @@
-# Рабочий Markdown одного боя
+# Working Markdown for one battle
 
-## Паспорт
-- Бой, арка/эпоха, участники и роли, первая/последняя показанная атака.
-- Источник/издание, главы/страницы при наличии, статус проверки и пробелы.
-- Формат, длительность действия +3s вступления, движок, версия, статус одобрения.
-- Канонический исход; что означает финальное HP. Для чисел — отдельное описание условной модели.
+## Overview
 
-## Материалы и состояния
-- Эталон каждого героя: путь, форма/период, палитра, одежда/обувь, пропорции, сторона и масштаб.
-- Режим костюма: целый весь бой / повреждения с события …; для всех последующих поз.
-- Для каждого спрайта: файл, crop, прозрачность, физический масштаб, точки опоры, направление, состояние одежды/усиления.
-- Анатомия: left/right относительно тела; травмы/утрата конечности, событие лечения; разрывы одежды отдельно от восстановления тела. Помощники: перед/за/слева/справа от основного бойца.
-- Размеры: эталон головы, плеч, торса и конечностей; проверка ходьбы, захвата, финала.
-- Арена: пол, препятствия, предметы, допустимые траектории и изменения окружения.
-- Техники: English name, владелец, условия, механизм, ограничения, видимый признак, источник.
-- Реестр: источник / созданная адаптация; файлы графики и согласованного звука.
+- Battle, story arc or era, participants and roles, first and last shown attacks.
+- Source and edition, chapters and pages when available, review status, and gaps.
+- Format, action length + 3-second intro, engine, version, and approval status.
+- Outcome in the original story; meaning of the final HP. Explain the invented number model separately.
 
-## E001 — рабочее название (не экранная подпись)
-- **Источник / статус:** …
-- **До:** позиции, поза (стоит / падает / лежит / поднимается), опора (пол / воздух), способность действовать, HP/ресурс, травмы, костюм, усиления, оружие, арена.
-- **Порядок:** инициатор и действие → ответ → контакт/блок/промах → результат.
-- **Почему:** механизм и условие; интерпретацию отметить отдельно.
-- **Постановка:** ключевые/промежуточные позы, опорная стопа, траектория, подготовка/контакт/реакция/возврат, smear-интервал, звук, FX. Указать, что адаптировано.
-- **Время:** начало/контакт/конец в кадрах; явно полное видео или действие + вступление. Время истории отдельно.
-- **Экран:** название техники на английском либо пусто. Уведомление, получатель, start/end=start+3×fps.
-- **После:** полное состояние, включая позу, опору и способность действовать; причина каждого изменения и перенос в следующее событие. После исхода — утверждённая конечная поза; подъём из неё только через отдельное событие восстановления.
-- **Материалы:** ID поз/фона/эффектов/звуков.
-- **Не проверено:** …
+## Materials and states
 
-Повторить E-карточки без длинной предыстории. Параллельные события допустимы, но причинность и обновления состояния однозначны.
+- Each character's reference: path, form or period, colors, clothing and shoes, proportions, side, and scale.
+- Costume mode: intact throughout / damaged from event … onward; applies to all later poses.
+- Each sprite: file, crop, transparency, physical scale, contact points, facing direction, costume and power-up state.
+- Anatomy: left/right relative to the body; injuries or missing limbs; healing event. Keep clothing tears separate from body recovery. Helpers: in front of / behind / left of / right of the main fighter.
+- Size: reference head, shoulders, torso, and limbs; checks for walking, grabbing, and the ending.
+- Arena: floor, obstacles, objects, allowed movement paths, and changes to the surroundings.
+- Techniques: English name, owner, conditions, mechanism, limits, visible sign, and source.
+- Asset list: original source / created adaptation; graphics and agreed audio files.
 
-## Выпуск
-- Последнее действие, фактический исход, конечные состояния, граница без эпилога. Для поверженного: интервал падения, кадр контакта с землёй, согласованная финальная поза и её сохранение; проверка `defeat_settled`. Источниковую позу и выбранную постановку различать.
-- Трек: точный путь, source_start и video_start, длительность, скорость/уровни/затухания; эффекты и происхождение.
-- Hooks: какие проверки выполнены, что исправлено, что осталось неизвестным.
-- Версия движка/зависимостей, команда/настройки рендера, MP4, исходники и контрольные кадры.
+## E001 — working title, not an on-screen caption
+
+- **Source / status:** …
+- **Before:** positions, pose (standing / falling / lying / getting up), support (floor / air), ability to act, HP and resource, injuries, costume, power-ups, weapons, and arena.
+- **Order:** acting character and action → response → hit, block, or miss → result.
+- **Why:** mechanism and condition; mark interpretation separately.
+- **Staging:** key poses and poses between them, supporting foot, path, preparation/contact/reaction/return, smear interval, sound, and effects. State what was adapted for the video.
+- **Timing:** start/contact/end in frames. Make clear whether these use the full video timeline or action time plus the intro. Keep story time separate.
+- **Screen:** English technique name or empty. Notice text, recipient, start, and end = start + 3×fps.
+- **After:** full state, including pose, support, and ability to act. Explain each change and carry it into the next event. After the outcome, keep the agreed final pose; getting up needs a separate recovery event.
+- **Materials:** pose/background/effect/sound IDs.
+- **Not verified:** …
+
+Repeat the event cards without long backstory. Parallel events are allowed, but cause and effect and state updates must be clear.
+
+## Release
+
+- Last action, actual outcome, final states, and a clear stopping point without an extra ending. For a defeated fighter: fall interval when applicable, ground-contact frame, agreed final pose, and its continued use; complete `defeat_settled`. Separate the source pose from the chosen staging.
+- Track: exact path, `source_start`, `video_start`, duration, speed, levels, and fades; effects and their sources.
+- Hooks: completed checks, fixes, and remaining unknowns.
+- Engine and dependency versions, render command and settings, MP4, source files, and review frames.
